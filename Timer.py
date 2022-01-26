@@ -5,7 +5,7 @@
     1、每日结算功能
     修改：
     1、更改文件路径名，进行归类
-    2、缩短结束语”去北邮“持续时间
+    2、缩短结束语"继续加油"持续时间
 '''
 import datetime
 import time
@@ -19,7 +19,7 @@ def record():
 
         project = input("the project you are doing(exit==>e; day end==>end):")
         if project == 'e':
-            print("加油，去北邮!!")
+            print("继续加油!!")
             time.sleep(1)
             break
 
